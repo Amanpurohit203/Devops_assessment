@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:16
+    container_name: bookings_db
+    environment:
+      POSTGRES_USER: app_admin
+      POSTGRES_PASSWORD: app_password
+      POSTGRES_DB: bookingsdb
+    ports:
+      - "5432:5432"

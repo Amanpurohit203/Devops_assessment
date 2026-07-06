@@ -1,0 +1,6 @@
+# DB backups - these are local dump files, not source code, and can get large
+backups/
+
+# vim leftover swap files if a session crashes
+*.swp
+*.swo
